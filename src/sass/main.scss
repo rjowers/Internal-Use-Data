@@ -1,0 +1,52 @@
+
+.container{
+
+}
+
+ul{
+
+  display: inline-block;
+  float: left;
+  list-style: none;
+  text-align: center;
+}
+
+.names{
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: #46A676;
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 5px;
+}
+
+.emails{
+  font-family: 'Open Sans', sans-serif;
+  color: #CFCFCF;
+  padding-top: 5px;
+}
+
+.streets{
+  padding-top: 5px;
+  color: #AAAAAA;
+  font-size: 18px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.cities{
+  color: #AAAAAA;
+  font-size: 18px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.phonenumbers{
+  padding-top: 8px;
+  color: #AAAAAA;
+  font-size: 18px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  color: transparent;
+   text-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+.phonenumbers:hover {
+    color: black;
+}
