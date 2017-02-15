@@ -1,6 +1,13 @@
 
-.container{
 
+
+.container{
+  text-align: center;
+}
+
+
+.stuff {
+width: 1200px;
 }
 
 ul{
@@ -9,14 +16,32 @@ ul{
   float: left;
   list-style: none;
   text-align: center;
+  margin: auto;
+
+}
+
+li {
+  display: block;
+  width: 250px;
+  margin-right: 10px;
+}
+
+
+.images{
+padding-top: 50px;
 }
 
 .names{
   font-weight: bold;
-  text-decoration: underline;
-  text-decoration-color: #46A676;
+  //text-decoration: underline;
+  //text-decoration-color: #46A676;
   font-family: 'Open Sans', sans-serif;
   padding-top: 5px;
+
+  span{
+    border-bottom: solid green;
+    border-width: .5px;
+  }
 }
 
 .emails{
@@ -40,13 +65,13 @@ ul{
 
 .phonenumbers{
   padding-top: 8px;
-  color: #AAAAAA;
+  color: green;
   font-size: 18px;
   font-family: 'Yanone Kaffeesatz', sans-serif;
   color: transparent;
-   text-shadow: 0 0 5px rgba(0,0,0,0.5);
+   text-shadow: 0 0 5px green;
 }
 
 .phonenumbers:hover {
-    color: black;
+    color: green;
 }
