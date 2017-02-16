@@ -1,7 +1,6 @@
 
-
-
 .container{
+  display: inline-block;
   text-align: center;
 }
 
@@ -11,7 +10,8 @@ width: 1200px;
 }
 
 ul{
-
+  height: 437px;
+  width: 260px;
   display: inline-block;
   float: left;
   list-style: none;
@@ -29,6 +29,12 @@ li {
 
 .images{
 padding-top: 50px;
+
+
+img {
+  height: 250px;
+  width: 250px;
+}
 }
 
 .names{
